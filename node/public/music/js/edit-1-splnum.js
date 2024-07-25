@@ -5,7 +5,7 @@
 /*  http://javascriptobfuscator.com                                        */
 /*                                                                         */
 /***************************************************************************/
-alert('a234');
+//alert('a234');
 var _$_2aca=["onerror", //[0]
 "string", //[1]
 "window error: ", //[2]

@@ -1585,7 +1585,7 @@ $(document).ready(function(){
 	//论坛
 	$("li[data-code='bbs']").click(function(){
 		console.log("快捷键说明")
-		window.open("http://bbs.ixzds.com")
+		window.open("https://www.520mus.top")
 	});
 	
 	$("#arp_link").click(function(){

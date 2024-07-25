@@ -30,7 +30,7 @@ var menuList = [
 		menuCode: 'file',
 		orderby: 0,
 		subMenuList: [
-		      { code: 'newstaff', id: 'newstaff', name: '新建乐谱', classCss: 'newstaff', url: 'v2/images/new.png', checkbox: true, isChecked: false},
+		      { code: 'newstaff', id: 'newstaff', name: '新建音娱V5乐谱', classCss: 'newstaff', url: 'v2/images/new.png', checkbox: true, isChecked: false},
 //		      { code: 'plsx', id: 'plsx', name: '谱例属性', classCss: 'plsx', url: 'v2/images/attr.png', checkbox: false, isChecked: false},
 		      { code: 'openfile',  name: '打开文件', classCss: 'openfile', url: 'v2/images/dakai.png', checkbox: true, isChecked: false},
 		      { code: 'saveas', name: '另存文件', classCss: 'saveas', url: 'v2/images/save.png', checkbox: true, isChecked: false},
@@ -45,8 +45,9 @@ var menuList = [
 		      { code: 'exportvoicepart', name: '分声部导出', classCss: 'exportvoicepart', url: 'v2/images/voice-export.png', checkbox: true, isChecked: false},
 		      { code: 'exportallvoicepart', name: '一键导出声部', classCss: 'exportallvoicepart', url: 'v2/images/voice-export.png', checkbox: false, isChecked: false},
 		      { code: 'localhistory', name: '本地缓存', classCss: 'localabchistory', url: 'images/history.png', checkbox: false, isChecked: false},
-		      { code: 'serverhistory', name: '历史记录', classCss: 'serverabchistory', url: 'images/history.png', checkbox: false, isChecked: false},
-		      { code: 'mystaff', name: '我的谱例', classCss: 'mystaff', url: 'images/history.png', checkbox: false, isChecked: false}
+		      { code: 'serverhistory', name: '历史记录', classCss: 'serverabchistory', url: 'images/history.png', checkbox: false, isChecked: false}
+			  //,
+		     // { code: 'mystaff', name: '我的谱例', classCss: 'mystaff', url: 'images/history.png', checkbox: false, isChecked: false}
 		] 
 	},
 	{ 
@@ -305,25 +306,25 @@ var menuList = [
 //          	
 //		 ] 
 //	},
-	{ 
-		menuName: '帮助', 
-		classCss:"help",
-		menuCode: 'help', 
-		orderby: 6,
-		subMenuList: [] 
-	},
+	// { 
+	// 	menuName: '帮助', 
+	// 	classCss:"help",
+	// 	menuCode: 'help', 
+	// 	orderby: 6,
+	// 	subMenuList: [] 
+	// },
 	{ 
 		menuName: '快捷键', 
 		classCss:"shortcutKey",
 		menuCode: 'shortcutKey', 
-		orderby: 7,
+		orderby: 6,
 		subMenuList: [] 
 	},
 	{ 
-		menuName: '论坛', 
+		menuName: '音娱乐行官网www.520mus.top', 
 		classCss:"bbs",
 		menuCode: 'bbs', 
-		orderby: 8,
+		orderby: 7,
 		subMenuList: [] 
 	}
 	
