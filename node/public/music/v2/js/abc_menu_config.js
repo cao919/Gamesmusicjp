@@ -326,6 +326,12 @@ var menuList = [
 		menuCode: 'bbs', 
 		orderby: 7,
 		subMenuList: [] 
+	},
+	{ 
+		menuName: '音娱简谱V5乐谱编辑器', 
+		classCss:"yyjpv5",
+		menuCode: 'yyjpv5', 
+		orderby: 8,
+		subMenuList: [] 
 	}
-	
 ]

@@ -1587,6 +1587,11 @@ $(document).ready(function(){
 		console.log("快捷键说明")
 		window.open("https://www.520mus.top")
 	});
+	// 
+	$("li[data-code='yyjpv5']").click(function(){
+		console.log("yyjpv5")
+		window.open("https://www.520mus.top/helpurlopen/public/music/index.aspx")
+	});
 	
 	$("#arp_link").click(function(){
 		setArpLink('source');
